@@ -16,4 +16,5 @@ label start:
 
     jump act1scene1
     jump act1scene2
+    jump act1scene3
 
