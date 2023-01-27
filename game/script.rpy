@@ -14,5 +14,6 @@ label start:
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
 
-    jump scene1
+    jump act1scene1
+    jump act1scene2
 
