@@ -21,7 +21,7 @@ label act1scene3:
 
     #Left- Clown, right, Countess
 
-    c "Begone, slave. I don't believe all the compaints about you, though I know you're foolish enough for them to be true and you have it in you to misbehave in the ways they describe."
+    c "Begone, slave. I don't believe all the complaints about you, though I know you're foolish enough for them to be true and you have it in you to misbehave in the ways they describe."
 
     cl "As you know, madam, I am a very poor fellow."
 
@@ -41,7 +41,7 @@ label act1scene3:
 
     cl "Servants don't usually build up much of an inheritance."
 
-    cl "I don't think I'll ever have God's blessing untl I've had children, for they say children are blessings."
+    cl "I don't think I'll ever have God's blessing until I've had children, for they say children are blessings."
 
     c "Why do you want to marry?"
 
@@ -57,7 +57,7 @@ label act1scene3:
 
     cl "I have been a wicked creature, madam, as you and anyone of flesh and blood have been. And so I want to marry so I can repent."
 
-    c "You'll repent your marraige before you repent your wickedness."
+    c "You'll repent your marriage before you repent your wickedness."
 
     cl "I am friendless, madam, and I hope to gain friends for my wife's sake."
 
@@ -89,7 +89,7 @@ label act1scene3:
 
     cl "I'll be a prophet, madam, and I speak the truth this way:"
     #clown_singing-center
-    cl "{i} For I will balad will repeat \n Which men full true shall find \n Your marriage comes by destiny, \n Your cuckoo sings by kind.{/i}"
+    cl "{i} For I will ballad will repeat \n Which men full true shall find \n Your marriage comes by destiny, \n Your cuckoo sings by kind.{/i}"
     #clown_netural-left, countess_neutral-right
     c "Leave, sir."
     c "We'll talk more later."
@@ -191,7 +191,7 @@ label act1scene3:
 
     c "I say, I am your mother and I count you among the children that I gave birth to."
 
-    c "Adopted children often grow to feel as close to us as biologogical children."
+    c "Adopted children often grow to feel as close to us as biological children."
 
     c "The family we choose can feel just as familiar the family we're born with."
 
@@ -236,8 +236,8 @@ label act1scene3:
     c "It's clear to me that you love Bertram, Helena."
     c "Don't try to deny it, it's written all over your face."
     c "Now, tell me the truth."
-    c "Your cheeck's blushing serves as a confession and your eyes are practically shouting it."
-    c "Stubborness is sinful, Helena. Only that and your frustration at being discovered keeps you from speaking."
+    c "Your cheek's blushing serves as a confession and your eyes are practically shouting it."
+    c "Stubbornness is sinful, Helena. Only that and your frustration at being discovered keeps you from speaking."
     c "Speak up. Is it true?"
     c "If it is, you've made quite the tangle of things."
     c "If it isn't, then swear it."
@@ -264,8 +264,8 @@ label act1scene3:
     h "I love him in vain. I am hopeless."
     h "I pour my love like water into a strainer, hoping to catch it, but it evades me."
     h "Like a pagan, I worship the sun while it looks down on me not even knowing I exist."
-    h "Please, mada, don't hate me for loving the son you love."
-    h "If you- whose honor in older age suggets that you were a virtuous young woman, ever loved chastely and passionately like me, so that Diana of charity and Venus of love were as merged into one-"
+    h "Please, madam, don't hate me for loving the son you love."
+    h "If you- whose honor in older age suggests that you were a virtuous young woman, ever loved chastely and passionately like me, so that Diana of charity and Venus of love were as merged into one-"
     h "Have pity on this girl who could not choose but to give her love to someone who could never return it."
     h "For she is one who will not seek to pursue her love but will keep it, sweetly and secretly, until her death."
     #countess, center, neutral
@@ -281,14 +281,14 @@ label act1scene3:
     h "Among these medicines is one that will cure the terrible sickness that has afflicted the king."
     c "And this was your reason to go to Paris?"
     h "Your son, my lord, gave me the idea. If he hadn't..."
-    h "...Paris, the medciine, the king..." 
+    h "...Paris, the medicine, the king..." 
     h "None of it would have crossed my mind."
     c "Helena, do you think the king would accept your help if you were to offer it?"
     c "He and his physicians are in agreement. He doesn't think they can help him and they thinks he can't be helped."
     c "Don't take this the wrong way, but why would they trust a poor, uneducated maiden when the best doctors have left the sickness to do what it will?"
     h "My hope was that, besides my father's renowned skills, his reputation might bring me good fortune."
     h "And, if your ladyship would give me the chance to attempt success, I'd wager my life on his grace being cured down to the day and hour."
-    c "Do you realy believe this, Helena?"
+    c "Do you really believe this, Helena?"
     h "Yes, madam. Absolutely."
     c "Then you have my permission and love."
     #Helena, surprised

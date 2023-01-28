@@ -117,7 +117,7 @@ label act1scene1:
     c "I hope God sees fit to shower you with many blessings, and that he answers my own prayers."
 
     #Sad
-    c "Farwell now, my lord."
+    c "Farewell now, my lord."
 
     #Sad
     c "Lafeu, my son is an untrained nobleman yet. Advise him for me, if you please."
@@ -219,7 +219,7 @@ label act1scene1:
     #neutral
     p "A virgin is like a man who commits suicide."
     #neutral
-    p "Virginity kills itself and therefore should be buried far outside holy ground, like something that's commited a crime against nature."
+    p "Virginity kills itself and therefore should be buried far outside holy ground, like something that's committed a crime against nature."
     #neutral
     p "Virginity breeds flies like old cheese and, like cheese, becomes moldy, rotting, and eventually dies consuming itself."
     #neutral

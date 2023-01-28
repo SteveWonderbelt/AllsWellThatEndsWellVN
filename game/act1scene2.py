@@ -78,7 +78,7 @@ label act1scene2:
 
     k "If they did they'd see that they're going backwards in their manners these days."
     #show betram solemn
-    b "You do honor to his memory, sir, more rickly than the words on his tomb do."
+    b "You do honor to his memory, sir, more richly than the words on his tomb do."
 
     b "His legacy lives on in your speech more than his epitaph."
     #king, emotional
@@ -87,7 +87,7 @@ label act1scene2:
     k "He'd always say-"
     k "Not to many people, mind you, but only to certain people he felt needed to hear it-"
     k "\"Let me not live\""
-    k "-melancholy speechs often begin that way, once a fun night has come to an end-"
+    k "-melancholy speeches often begin that way, once a fun night has come to an end-"
     k "\"Let me not live,\" he'd say, \"after my spirit has lost its fire, to stick around stifling the young, whose quick sense hate anything that is not new.\""
     k "\"All their thoughts lead only to getting new clothes. All their loyalties fade out before their new fashions.\""
     k "That is what he wish, and, now, I wish it too."
@@ -104,7 +104,7 @@ label act1scene2:
 
     k "If he were living I'd still try him."
     k "Give me a hand, Bertram." 
-    k "The rest of the doctots have worn me out with their cures."
+    k "The rest of the doctors have worn me out with their cures."
     k "Nature and sickness are fighting over me."
     k "But you are most welcome, Bertram. I count you as dear as a son to me."
     #Bertram, thoughtful
