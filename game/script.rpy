@@ -15,6 +15,6 @@ label start:
     # images directory to show it.
 
     jump act1scene1
-    jump act1scene2
-    jump act1scene3
+    #jump act1scene2
+    #jump act1scene3
 

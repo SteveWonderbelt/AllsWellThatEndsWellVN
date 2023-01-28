@@ -1,5 +1,3 @@
-define c = Character('Countess', color="#820BDA")
-
 image countess neutral:
     "countess_neutral"
     pause 5.0
