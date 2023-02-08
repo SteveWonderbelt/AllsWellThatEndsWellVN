@@ -21,3 +21,26 @@ image countess sad:
 #countess crying image
 image countess cry:
     "countess_tears"
+
+#Bertram neutral image
+image bertram neutral:
+    "bertram_neutral"
+    pause 5.0
+    "bertram_neutral_blink" with Dissolve(0.3)
+    pause 0.3
+    "bertram_neutral" with Dissolve(0.3)
+    pause 0.3
+    repeat
+
+#Bertram concerned image
+image bertram concerned:
+    "bertram_concerned"
+    pause 5.0
+    "bertram_concerned_blink" with Dissolve(0.3)
+    pause 0.3
+    "bertram_concerned" with Dissolve(0.3)
+    pause 0.3
+    repeat
+
+image lafeu = Placeholder("boy")
+image helena = Placeholder("girl")

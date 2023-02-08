@@ -5,7 +5,7 @@
 
 define b = Character('Bertram', color="#1E49AD")
 define c = Character('Countess', color="#820BDA")
-define l = Character('Lafue', color="#FFC300")
+define l = Character('Lafeu', color="#FFC300")
 define h = Character('Helena', color="#EE44AD")
 define p = Character('Parolles', color="#C3E4F3")
 define pa = Character('Page', color="#383729")
@@ -28,19 +28,23 @@ label act1scene1:
     # These display lines of dialogue.
 
     #countess, sad
-    show countess neutral
+    show countess neutral at right
     c "Bertram, losing you feels like losing my husband again."
 
     #Bertram, neutral
+    show bertram neutral at left
     b "Yes, I feel the same about leaving, mother...but I must do as the King commands."
+    
 
-    #Lafeau, netural
+    #Lafeau, netural at left
+    hide bertram neutral at left
+    show lafeu at left
     l "The king will be like a husband to you, countess, and as good as a father to you, sir. He's known to be good to all of his subjects. Especially considering who your father was, he is bound to be generous."
 
     #Countess, neutral
     c "Do we know how likely it is that he'll recover? He's been sick for some time, or so I hear."
 
-    #Lafeau, neutral
+    #Lafeu, neutral
     l "It's hard to say, madam..."
 
     #lafeu, concenred
@@ -50,62 +54,94 @@ label act1scene1:
     c "It reminds me of this young woman here. Her late father..."
 
     #countess gets choked up at this point, switches to crying
-
+    hide countess neutral at right
+    show countess cry at right
     #Bertram, concerned
+    hide bertram neutral at left
+    show bertram concerned at left
     b "Mother? Are you alright?"
 
     # Countess, lightly crying
     c "Yes, it's just... " 
     
     # Countess, sad
+    hide countess cry at right
+    show countess sad at right
     c "Anyway, he was a doctor of considerable skill, and a very good man besides. A miracle worker, truly. If he were still living I don't doubt he could cure the king."
 
     #Netural
+    hide bertram concerned at left
+    show lafeu at left
     l "This man, madam, what was his name?"
 
     #Neutral
+    hide countess cry at right
+    show countess neutral at right
     c "Oh, he earned every ounce of fame he got, Lafeu. Gerard de Narbon was his name."
 
     #Sad
     l "Ah, yes, a great man. Just the other day the king was talking about him with admiration and sadness. If knowledge alone could keep a man alive, he'd be with us still."
 
     #Neutral
+    hide lafeu at left
+    show bertram neutral at left
     b "This illness the king has, Lafeu, do they know what it is?"
 
     #Neutral
+    hide bertram neutral at left
+    show lafeu at left
     l "A fistula, my lord."
 
     #Neutral
+    hide lafeu at left
+    show bertram neutral at left
     b "Can't say I've heard of that..."
 
     #Netural
+    hide bertram neutral at left
+    show lafeu at left
     l "Don't go spreading that around if you don't mind, my lord. Anyway, this young lady, she's Narbon's daughter, countess?"
 
     #Neutral
     c "Yes, and his only child, under my care now that her father is gone. She's done very well in school under the circumstances. Good head on her shoulders. Her father taught her to be as honest and good as himself."
 
     #show Helena crying hysterically
-
+    hide lafeu at left
+    show helena at left 
     #concerned
+    hide helena at left
+    show lafeu at left
     l "I think you've made the poor thing cry, madam"
 
-    #concerned
+    #sad
+    hide countess neutral at right
+    show countess sad at right
     c "Oh, Helena, I'm so sorry. Thinking of your father must be very hard for you right now. Come now, no more. We don't want people thinking you're being performative, do we?"
 
     #crying
+    hide lafeu at left
+    show helena at left
     h "I perform only what I feel, madam."
 
     #Neutral
+    hide helena at left
+    show lafeu at left
     l "I know it's hard, Helena. But excessive grief does no one any good. We owe our mourning to the dead, but excessive grief is the enemy of the living."
 
-    #Sad
+    #sad
     c "If the living is the enemy to grief, too much grief can be lethal."
 
     #Neutral
+    hide lafeu at left
+    show bertram neutral at left
     b "Mother, may have your blessing? To leave and attend the king?"
 
     #Neutral
+    hide bertram neutral at left 
+    show lafeu at left
     l "What is to be made of that?"
+    hide lafeu at left
+    show bertram neutral at left
 
     #Sad
     c "I give you my blessing, Bertram. Follow in your father's footsteps. But please hear this. You will feel your blood and virtue fight within you, but I want you to remember to be good like I've taught you. Love all, trust few, and do right by everyone you meet." 
@@ -123,14 +159,18 @@ label act1scene1:
     c "Lafeu, my son is an untrained nobleman yet. Advise him for me, if you please."
 
     #Neutral
+    hide bertram neutral at left
+    show lafeu at left
     l "Of course, madam. He'll have only the best advice I can give."
 
     #Sad
     c "God bless him. Goodbye, Bertram."
 
     #countess exits
+    hide countess sad
 
     #Neutral
+    show bertram neutral at right
     b "I'm hoping for the best for you, Helena. Take care of my mother for me while I'm gone."
 
     #Neutral
