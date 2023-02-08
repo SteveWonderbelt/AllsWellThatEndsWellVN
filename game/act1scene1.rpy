@@ -57,6 +57,7 @@ label act1scene1:
     hide countess neutral at right
     show countess cry at right
     #Bertram, concerned
+    hide lafeu at left
     hide bertram neutral at left
     show bertram concerned at left
     b "Mother? Are you alright?"
@@ -134,7 +135,7 @@ label act1scene1:
     #Neutral
     hide lafeu at left
     show bertram neutral at left
-    b "Mother, may have your blessing? To leave and attend the king?"
+    b "Mother, may I have your blessing? To leave and attend the king?"
 
     #Neutral
     hide bertram neutral at left 
@@ -144,6 +145,8 @@ label act1scene1:
     show bertram neutral at left
 
     #Sad
+    hide countess sat at right
+    show countess neutral at right
     c "I give you my blessing, Bertram. Follow in your father's footsteps. But please hear this. You will feel your blood and virtue fight within you, but I want you to remember to be good like I've taught you. Love all, trust few, and do right by everyone you meet." 
     
     #Sad
